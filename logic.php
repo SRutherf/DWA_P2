@@ -25,6 +25,7 @@
 		$space = '.';
 	}
 	
+	//apply the capitalization transform
 	function cap($word){
 		global $caseTrans;
 		if ($caseTrans == "allLow"){
@@ -38,6 +39,7 @@
 		}
 	}
 	
+	//add nums or chars to the end
 	function addEnd(){
 		global $nums, $chars, $numArray, $charArray;
 		if ($nums == "on" AND $chars == "on"){
@@ -51,6 +53,7 @@
 		}
 	}
 	
+	//print out a word
 	function getWord(){
 		global $nArray, $vArray, $aArray, $minWord, $maxWord;
 		$case = rand(0, 2);

@@ -1,0 +1,55 @@
+html, body{
+	background-color: #000000;
+}
+
+.center{
+	margin: 100px auto; 
+	max-width: 100%;
+	background-color: #000000;
+}
+
+.row-lg{
+	text-align: center;
+	background-color: #000000;
+	color: #FFFFFF;	
+}
+
+
+.title{
+	font-family: "Segoe UI";
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.blurb{
+	font-family: "Segoe UI";
+	font-size: 20px;
+	font-weight: bold;
+	margin: 40px auto;
+}
+
+.panel{
+	margin: 10px auto 10px auto;
+	width: 50%;
+}
+
+.password{
+	text-align: center;
+	font-family: "Segoe UI";
+	font-size: 25px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.forms{
+	margin: 30px auto;
+}
+
+.btn.btn-danger {
+    color: #ffffff;
+    background-color: #ffffff;
+    background-image: linear-gradient(to bottom, #ff0015, #800d0c);
+    border-color: #000000 #000000 #000000;
+    margin: 30px auto;
+}
+
